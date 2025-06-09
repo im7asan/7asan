@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+
+}
+.header {
+  background-color: #0171f9;
+display:flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 50px;
+}
+.logo {
+width: 50px;
+}
+.btn {
+padding: 5px 15px;
+  border-radius: 15px;
+  background-color: #EE6268;
+  color: white;
+  border: none;
+
+}
+
+.btn:hover {
+  background-color: #f2858c;
+}
+
+.header-links a {
+color: white;
+padding: 5px 15px;
+text-decoration: none;
+border-radius: 15px;
+}
+.header-links a:hover {
+background-color: #2386fe;
+}
+
+
+.landing-page {
+    background-color: #0171f9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    color: white;
+    border-radius: 0 0 50px 50px;
+}
+
+.landing-page-left-section {
+width: 600px;
+
+}
+
+.landing-page-search input {
+border-radius: 50px;
+border: none;
+outline: none;
+height: 30px;
+padding: 0 10px;
+}
+
+.landing-page-search button {
+position: absolute;
+left: 200px;
+height: 30px;
+}
+
+.landing-page-image-container img {
+border-radius: 20px;
+width: 250px;
+}
+
+.Trending-container {
+  padding: 25px 50px;
+}
+
+.Trending-container span  {
+  color: #EE626b;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.trending-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.trending-header h1 {
+  margin: 0;
+}
+
+
+.trending-cards {
+    display: flex;
+    gap: 12px;
+    
+}
+
+.card {
+
+    width: 300px;
+    background-color: #EEEEEE;
+    border-radius: 20px;
+}
+
+.card .thumb {
+    border-radius: 20px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 25px;
+}
+
+.card-info img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.trending-cards :hover {
+  background-color: #d8d8ff;
+  border-radius: 20px;
+}
+
+.trending-cards-second {
+display: flex;
+gap: 20px;
+padding: 15px 25px 0 0;
+}
+
+.trending-cards-second :hover {
+  background-color: #d8d8ff;
+}
+
+.trending-cards-second {
+  display: flex;
+}
